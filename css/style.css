@@ -1,20 +1,38 @@
+html {
+
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+
 .tresc {
     max-width: 700px;
+   
     margin: auto;
-    background-color: #eeebeb70;
+    background-color: #eeebebf1;
+    padding: 20px;
+    background-image: url("..//images/share_7.png");
+    background-repeat: no-repeat ;
+    font-size: 22px;
+
 }
 
 
 .naglowek {
 
     color: #04000e93;
-    background-color: rgba(43, 52, 80, 0.438);
+    background-color: rgba(4, 26, 92, 0.438);
     text-align: center;
+    
 }
 
 .ciekawyElement {
 
-    color: #a17fff;
+    color: #7445f5;
 }
 
 .pudelko {
@@ -24,7 +42,22 @@
 
 .przycisk {
 
+    background-color: rgba(126, 155, 236, 0.637);
+    visibility: visible;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;
+
+}
+
+.kolorPrzycisk {
+
+    background-color:  rgba(22, 40, 90, 0.637);
+}
+
+.nuda {
+
     color: #04000e93;
-    background-color: rgba(43, 52, 80, 0.438);
+    visibility: visible;
 
 }
